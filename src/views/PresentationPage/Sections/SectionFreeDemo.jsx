@@ -31,7 +31,7 @@ class SectionFreeDemo extends React.Component {
                 <div className="fab fa-github" />
               </div>
               <div>
-                <h2 className={classes.title}>Free Demo</h2>
+                <h2 className={classes.title}>Modern Tech Expertise</h2>
                 <h5 className={classes.description}>
                   Do you want to test and see the benefits of this kit before
                   purchasing it? You can give the demo version a try. It
@@ -46,7 +46,7 @@ class SectionFreeDemo extends React.Component {
                 target="_blank"
                 round
               >
-                View demo on github
+                ❤️ View Resume ❤️
               </Button>
             </GridItem>
             <GridItem md={6} sm={12} className={classes.mlAuto}>
@@ -56,13 +56,14 @@ class SectionFreeDemo extends React.Component {
                     className={classNames(classes.card, classes.cardPricing)}
                   >
                     <CardBody>
-                      <h3 className={classes.cardTitle}>Free Demo</h3>
+                      <h3 className={classes.cardTitle}>Front End</h3>
                       <ul>
                         <li>
-                          <b>60</b> Components
+                          <b>60</b> React Redux conext/Hooks
                         </li>
                         <li>
-                          <b>3</b> Example Pages
+                          <b>3</b>
+                          AngualrJS
                         </li>
                         <li>
                           <Close
@@ -71,7 +72,7 @@ class SectionFreeDemo extends React.Component {
                               classes.dangerColor
                             )}
                           />{" "}
-                          Unconventional Cards
+                          BootStrap /Jquery/ Material UI
                         </li>
                         <li>
                           <Close
@@ -89,7 +90,7 @@ class SectionFreeDemo extends React.Component {
                               classes.dangerColor
                             )}
                           />{" "}
-                          Photoshop for Prototype
+                          Responsive/ Accesiblity
                         </li>
                         <li>
                           <Close
@@ -98,7 +99,7 @@ class SectionFreeDemo extends React.Component {
                               classes.dangerColor
                             )}
                           />{" "}
-                          Premium Support
+                          Data Flow Master - UI UX focused
                         </li>
                       </ul>
                     </CardBody>
@@ -109,22 +110,13 @@ class SectionFreeDemo extends React.Component {
                     className={classNames(classes.card, classes.cardPricing)}
                   >
                     <CardBody>
-                      <h3 className={classes.cardTitle}>PRO Version</h3>
+                      <h3 className={classes.cardTitle}>Back End</h3>
                       <ul>
                         <li>
-                          <b>1000+</b> Components
+                          <b>1000+</b> MCV
                         </li>
                         <li>
-                          <b>12</b> Example Pages
-                        </li>
-                        <li>
-                          <Check
-                            className={classNames(
-                              classes.cardIcons,
-                              classes.successColor
-                            )}
-                          />{" "}
-                          Unconventional Cards
+                          <b>12</b> Security
                         </li>
                         <li>
                           <Check
@@ -133,7 +125,7 @@ class SectionFreeDemo extends React.Component {
                               classes.successColor
                             )}
                           />{" "}
-                          Sections
+                          Documentaion Swagger
                         </li>
                         <li>
                           <Check
@@ -142,7 +134,7 @@ class SectionFreeDemo extends React.Component {
                               classes.successColor
                             )}
                           />{" "}
-                          Photoshop for Prototype
+                          OOP Pirniciples SOLID
                         </li>
                         <li>
                           <Check
@@ -151,7 +143,43 @@ class SectionFreeDemo extends React.Component {
                               classes.successColor
                             )}
                           />{" "}
-                          Premium Support
+                          Node+Express APIs
+                        </li>
+                        <li>
+                          <Check
+                            className={classNames(
+                              classes.cardIcons,
+                              classes.successColor
+                            )}
+                          />{" "}
+                          MongoDB or SQL (Postgres & MSSQL)
+                        </li>
+                        <li>
+                          <Check
+                            className={classNames(
+                              classes.cardIcons,
+                              classes.successColor
+                            )}
+                          />{" "}
+                          Php
+                        </li>
+                        <li>
+                          <Check
+                            className={classNames(
+                              classes.cardIcons,
+                              classes.successColor
+                            )}
+                          />{" "}
+                          C# Wep API Microservice
+                        </li>
+                        <li>
+                          <Check
+                            className={classNames(
+                              classes.cardIcons,
+                              classes.successColor
+                            )}
+                          />{" "}
+                          NextJS or handlabrs Server Side Rednereding
                         </li>
                       </ul>
                     </CardBody>

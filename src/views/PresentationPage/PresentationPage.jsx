@@ -66,11 +66,11 @@ class PresentationPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionDescription />
-          <SectionComponents />
+          {/* <SectionComponents />
           <SectionCards />
           <SectionContent />
           <SectionSections />
-          <SectionExamples />
+          <SectionExamples /> */}
           <SectionFreeDemo />
           <SectionOverview />
         </div>

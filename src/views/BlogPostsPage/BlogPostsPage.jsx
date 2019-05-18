@@ -17,7 +17,7 @@ import SectionPills from "./Sections/SectionPills.jsx";
 import SectionInterested from "./Sections/SectionInterested.jsx";
 import SectionImage from "./Sections/SectionImage.jsx";
 import SubscribeLine from "./Sections/SubscribeLine.jsx";
-
+import SectionSimilarStories from "views/BlogPostPage/Sections/SectionSimilarStories.jsx";
 import blogPostsPageStyle from "assets/jss/material-kit-pro-react/views/blogPostsPageStyle.jsx";
 
 class BlogPostsPage extends React.Component {
@@ -44,7 +44,8 @@ class BlogPostsPage extends React.Component {
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.textCenter}>
                 <h2 className={classes.title}>
-                  A Place for Entrepreneurs to Share and Discover New Stories
+                  A Place for a Techie to Share Thoughts About the Evolving
+                  World
                 </h2>
               </GridItem>
             </GridContainer>
@@ -52,8 +53,9 @@ class BlogPostsPage extends React.Component {
         </Parallax>
         <div className={classes.main}>
           <div className={classes.container}>
-            <SectionPills />
-            <SectionInterested />
+            <SectionSimilarStories />
+            {/* <SectionPills />
+            <SectionInterested /> */}
           </div>
           <SectionImage />
           <SubscribeLine />
@@ -65,18 +67,18 @@ class BlogPostsPage extends React.Component {
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/"
+                      href="https://www.creative-tim.com/presentation"
                       className={classes.block}
                     >
-                      Creative Tim
+                      About me
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/presentation"
+                      href="https://www.creative-tim.com/"
                       className={classes.block}
                     >
-                      About us
+                      Contact
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
@@ -88,11 +90,8 @@ class BlogPostsPage extends React.Component {
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license"
-                      className={classes.block}
-                    >
-                      Licenses
+                    <a href="" className={classes.block}>
+                      Home
                     </a>
                   </ListItem>
                 </List>
@@ -100,8 +99,7 @@ class BlogPostsPage extends React.Component {
               <div className={classes.right}>
                 &copy; {1900 + new Date().getYear()} , made with{" "}
                 <Favorite className={classes.icon} /> by{" "}
-                <a href="https://www.creative-tim.com">Creative Tim</a> for a
-                better web.
+                <a href="">Paul Murff</a>
               </div>
             </div>
           }

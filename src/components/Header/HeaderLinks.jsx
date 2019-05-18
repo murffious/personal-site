@@ -209,18 +209,18 @@ function HeaderLinks({ ...props }) {
             <Link to="/login-page" className={classes.dropdownLink}>
               <Fingerprint className={classes.dropdownIcons} /> Login Page
             </Link>,
-            <Link to="/pricing" className={classes.dropdownLink}>
-              <AttachMoney className={classes.dropdownIcons} /> Pricing Page
-            </Link>,
-            <Link to="/shopping-cart-page" className={classes.dropdownLink}>
-              <ShoppingBasket className={classes.dropdownIcons} /> Shopping Cart
-            </Link>,
-            <Link to="/ecommerce-page" className={classes.dropdownLink}>
-              <Store className={classes.dropdownIcons} /> Ecommerce Page
-            </Link>,
-            <Link to="/product-page" className={classes.dropdownLink}>
-              <ShoppingCart className={classes.dropdownIcons} /> Product Page
-            </Link>,
+            // <Link to="/pricing" className={classes.dropdownLink}>
+            //   <AttachMoney className={classes.dropdownIcons} /> Pricing Page
+            // </Link>,
+            // <Link to="/shopping-cart-page" className={classes.dropdownLink}>
+            //   <ShoppingBasket className={classes.dropdownIcons} /> Shopping Cart
+            // </Link>,
+            // <Link to="/ecommerce-page" className={classes.dropdownLink}>
+            //   <Store className={classes.dropdownIcons} /> Ecommerce Page
+            // </Link>,
+            // <Link to="/product-page" className={classes.dropdownLink}>
+            //   <ShoppingCart className={classes.dropdownIcons} /> Product Page
+            // </Link>,
             <Link to="/profile-page" className={classes.dropdownLink}>
               <AccountCircle className={classes.dropdownIcons} /> Profile Page
             </Link>,
@@ -238,7 +238,7 @@ function HeaderLinks({ ...props }) {
           className={classes.navButton}
           round
         >
-          <Message className={classes.icons} /> Contact
+          <Message className={classes.icons} /> Possible Tool
         </Button>
       </ListItem>
     </List>

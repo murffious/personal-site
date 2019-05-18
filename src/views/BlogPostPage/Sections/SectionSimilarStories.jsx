@@ -28,7 +28,7 @@ function SectionSimilarStories({ ...props }) {
         <GridContainer>
           <GridItem md={12}>
             <h2 className={classes.title + " " + classes.textCenter}>
-              Similar Stories
+              Recent Blog Posts
             </h2>
             <br />
             <GridContainer>

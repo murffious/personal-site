@@ -20,18 +20,6 @@ class SectionDescription extends React.Component {
     return (
       <div className={classes.section}>
         <div className={classes.container}>
-          <GridContainer justify="center">
-            <GridItem md={8} sm={8}>
-              <h4 className={classes.description}>
-                Technology with code is my passion, I{" "}
-                <span role="img" aria-label="heart">
-                  ❤️
-                </span>{" "}
-                to solve data workflow/data engineering challenges w/ excellent
-                UI.
-              </h4>
-            </GridItem>
-          </GridContainer>
           <div className={classes.features}>
             <GridContainer>
               <GridItem md={4} sm={4}>
@@ -55,7 +43,49 @@ class SectionDescription extends React.Component {
               <GridItem md={4} sm={4}>
                 <InfoArea
                   title="Project Architect and Lead"
-                  description="If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages."
+                  description="Dockerized Containers Hosted with Azure Cloud Infrastructure ."
+                  icon={ViewCarousel}
+                  iconColor="success"
+                  vertical={true}
+                />
+              </GridItem>
+            </GridContainer>
+            <GridContainer justify="center">
+              Senior Software Engineer w/ Professional Experience in these areas
+              {/* <GridItem md={8} sm={8}>
+              <h4 className={classes.description}>
+                Technology with code is my passion, I{" "}
+                <span role="img" aria-label="heart">
+                  ❤️
+                </span>{" "}
+                to solve data workflow/data engineering challenges w/ excellent
+                UI.
+              </h4>
+            </GridItem> */}
+            </GridContainer>
+            <GridContainer>
+              <GridItem md={4} sm={4}>
+                <InfoArea
+                  title="Dashboards"
+                  description="Charts, Graphs, Account Settings/Profiles"
+                  icon={Apps}
+                  iconColor="danger"
+                  vertical={true}
+                />
+              </GridItem>
+              <GridItem md={4} sm={4}>
+                <InfoArea
+                  title="Complex yet easy to Use Sign Ups"
+                  description="Putting together a page has never been easier than matching together sections. From team presentation to pricing options, you can easily customise and built your pages."
+                  icon={ViewDay}
+                  iconColor="primary"
+                  vertical={true}
+                />
+              </GridItem>
+              <GridItem md={4} sm={4}>
+                <InfoArea
+                  title="Data Analysis"
+                  description="complex sql or mongo data sets used for tools and charts "
                   icon={ViewCarousel}
                   iconColor="success"
                   vertical={true}
