@@ -1,7 +1,7 @@
 # [START app_yaml]
-runtime: nodejs10
+
 steps:
-  - name: "morg"
+  - name: "morf"
     args: ["install"]
   - name: "morf"
     args: ["build:gcp"]
