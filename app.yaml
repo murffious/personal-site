@@ -5,11 +5,4 @@ steps:
     args: ["install"]
   - name: "morf"
     args: ["build:gcp"]
-
-handlers:
-  - url: /static
-    static_dir: public
-
-  - url: /.*
-    script: auto
 # [END app_yaml]
