@@ -8,12 +8,11 @@ RUN npm install
 
 COPY public public
 COPY src src
-COPY server.js server.js
 
-RUN npm run build:gcp
-# WORKDIR /workspace/build
+RUN npm run build
+WORKDIR /workspace/build
 
 # Install and configure `serve`.
-# RUN npm install -g serve
-# CMD serve -s /workspace/build
-# EXPOSE 5000
+RUN npm install -g serve
+CMD serve -s /workspace/build
+EXPOSE 5000
