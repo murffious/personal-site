@@ -8,6 +8,7 @@ RUN npm install
 
 COPY public public
 COPY src src
+COPY server.js server.js
 
 RUN npm run build:gcp
 WORKDIR /workspace/build
