@@ -31,6 +31,7 @@
     "react-tagsinput": "3.19.0"
   },
   "scripts": {
+    "build:gcp": "react-scripts build && node server.js",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
