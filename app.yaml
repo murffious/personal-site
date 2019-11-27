@@ -1,4 +1,8 @@
 # [START app_yaml]
 runtime: nodejs
 env: flex
+env_variables:
+  NODE_PATH: "./src"
+resources:
+  memory_gb: 4
 # [END app_yaml]
