@@ -1,6 +1,4 @@
 # [START app_yaml]
-steps:
-  - name: gcr.io//morfeng-site/github_murffious_personal-site/git
-    args: ["fetch", "--unshallow"]
----
+env: flex
+runtime: nodejs
 # [END app_yaml]
