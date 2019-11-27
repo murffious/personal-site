@@ -1,7 +1,6 @@
 # [START app_yaml]
-
 steps:
-  - name: "https://github.com/murffious/personal-site.git/npm"
-    args: ["install"]
-    args: ["build:gcp"]
+  - name: gcr.io//morfeng-site/github_murffious_personal-site/git
+    args: ["fetch", "--unshallow"]
+---
 # [END app_yaml]
