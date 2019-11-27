@@ -1,7 +1,7 @@
 # [START app_yaml]
 
 steps:
-  - name: "https://github.com/murffious/personal-site.git"
+  - name: "https://github.com/murffious/personal-site.git/npm"
     args: ["install"]
     args: ["build:gcp"]
 # [END app_yaml]
